@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #fff url(../images/fundo.png) repeat-x;
+}
+
+#container {
+    width: 750px;
+    margin: 0 auto;
+}
+
+#top {
+    height: 150px;
+    background: url(../images/detalhe-topo.png) no-repeat right top;
+    padding-top: 25px;
+}
+
+.logo {
+    width: 152px;
+    height: 66px;
+    background: url(../images/logo.png) no-repeat center;
+}
+
+/* nav bar */
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#top ul {
+    margin-top: 30px;
+    background: #b10333;
+    float: left;
+}
+
+#top ul li {
+    float: left;
+}
+
+#top ul a {
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: #fff;
+    background: url(../images/divisor.png) no-repeat left center;
+}
+
+#top ul .first a {
+    background: none;
+}
+
+#top ul a:hover {
+    color: #69001d;
+}
+
+body.home #nav-bar a#home,
+body.brasil #nav-bar a#brasil,
+body.internacional #nav-bar a#internacional,
+body.economia #nav-bar a#economia,
+body.saude #nav-bar a#saude,
+body.ciencia #nav-bar a#ciencia,
+body.fotos #nav-bar a#fotos
+{
+    color: #fff;
+    background: #de003e;
+    cursor: text;
+}
+
+/* Content */
+#content{
+    margin-top: 60px;
+}
+
+#main{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+#one-column #main{
+    width: 750px;
+    margin: 0 0 20px 0;
+}
+
+#two-columns #main{
+    width: 555px;
+}
+
+#second{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+
+#side-bar{
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+
+#container-footer{
+    clear: both;
+    background: #294c71;
+    padding: 20px;
+}
+
+/* Box */
+
+.box{
+    margin: 10px 0;
+    padding: 5px;
+    background: #f3f3f3 url(../images/fundo-caixa.png);
+}
+
+h2{
+    font-size: 1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+
+.box-content{
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+/* Menu lateral*/
+
+#side-bar ul a{
+    font-size: .9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#side-bar ul a:hover{
+    background: #f9f9f9 url(../images/marcador.png) no-repeat left center;
+    padding-left: 20px;
+    color: #a1a1a1;
+}
+
+/* Newsletter */
+
+label{
+    display: block;
+    cursor: pointer;
+    padding-left: 3px;
+}
+
+input{
+    padding: 5px;
+    width: 150px;
+    font-size: .9em;
+    background-color: #fff;
+    margin: 2px;
+}
+
+input.submit{
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
+}
+
+/* Formatting images*/
+
+img{
+    border: 2px solid #dfdfdf;
+}
+
+/* Formatting header h3 */
+
+h3{
+    text-transform: uppercase;
+    display: inline;
+    font-size: .8em;
+    padding: 3px;
+}
+
+.highlight h3{
+    background: #b10333;
+    color: #fff;
+}
+
+.interview h3{
+    background: #de003e;
+}
+
+/* Formatting news list */
+
+#news-list li{
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 62px;
+}
+
+#news-list li a img{
+    float: left;
+}
+
+#news-list li a{
+    text-decoration: none;
+}
+
+#news-list li a h3{
+    font-size: .8em;
+    padding: 0;
+    color: #3e7ab9;
+}
+
+#news-list li a p{
+    font-size: .7em;
+    color: #000;
+}
+
+#news-list li:hover{
+    background: #eee;
+    cursor: pointer;
+}
+
+/* Footer */
+#footer{
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
+}
